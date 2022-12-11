@@ -1,5 +1,6 @@
 #!
 
+
 echo 'run level_1'
 
 echo 'run simple'
@@ -44,8 +45,8 @@ cd ./level_2
 
 echo 'run simple proj who contains external library (jar)'
 cd ./include_libs
-javac -sourcepath ./src -d build/classes/ -cp ./lib/JColor-5.5.1.jar src/ua/com/alevel/util/Message.java src/ua/com/alevel/Hello.java
-java -cp build/classes/:./lib/JColor-5.5.1.jar ua.com.alevel.Hello
+javac -sourcepath ./src -d build/classes/ -cp ./commons-lang3-3.12.0-javadoc.jar src/ua/com/alevel/test/Freedom.java src/ua/com/alevel/Ukraine.java
+java -cp build/classes/:./lib/commons-lang3-3.12.0-javadoc.jar ua.com.alevel.Ukraine
 
 cd ../
 
