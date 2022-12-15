@@ -1,4 +1,5 @@
 #!
+#!/bin/sh
 
 
 echo 'run level_1'
